@@ -44,7 +44,7 @@ jobs:
       run: isort . --check
 
     - name: Run Black
-      run: black . --check
+      run: black . --check --diff
 """
         )
     print("Created GitHub Actions Workflow")
